@@ -30,7 +30,7 @@ You'll need this site to be connected to a Netlify site.
 2. Create a new site on Netlify
 3. Connect the remote repository to the site
 
-Once it's connected, run the development environment
+Once it's connected, run the development environment locally
 
 ```
 npm run dev
@@ -44,7 +44,7 @@ Netlify URL at which your site is hosted.
 ## Deploy
 
 After connecting your remote repository to Netlify, your site will be
-automatically depoloyed and all pushes to master will continuously deploy.
+automatically deployed and all pushes to master will continuously deploy.
 
 ## Usage
 
