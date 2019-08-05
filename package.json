@@ -1,6 +1,6 @@
 {
   "name": "netlifyidentity",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Just playing with Netlify's Identity feature.",
   "main": "index.js",
   "scripts": {
