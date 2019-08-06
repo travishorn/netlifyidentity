@@ -22,7 +22,7 @@ const callFunction = () => {
   })
     .then(res => res.json())
     .then(data => {
-      functionOutput.innerText = data;
+      functionOutput.innerText = JSON.stringify(data);
     })
     .catch(err => {
       functionOutput.innerText = err;
