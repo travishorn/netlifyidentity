@@ -5,7 +5,9 @@ exports.handler = function(event, context, callback) {
   if (!user) {
     return callback(null, {
       statusCode: 401,
-      body: "You must be signed in to call this function"
+      body: JSON.stringify({
+        message: "You must be signed in to call this function"
+      })
     });
   }
 
