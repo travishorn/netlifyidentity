@@ -1,4 +1,4 @@
-export function handler(event, context, callback) {
+exports.handler = function(event, context, callback) {
   const user = context.clientContext && context.clientContext.user;
   const payload = JSON.parse(event.body);
 
@@ -19,4 +19,4 @@ export function handler(event, context, callback) {
       payload
     })
   });
-}
+};
